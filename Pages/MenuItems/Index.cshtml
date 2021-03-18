@@ -1,0 +1,66 @@
+@page
+@model BonFromage.Pages.MenuItems.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MenuItem[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MenuItem[0].ShortDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MenuItem[0].LongDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MenuItem[0].ImageUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MenuItem[0].SellingPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MenuItem[0].ProductionPrice)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.MenuItem) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShortDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LongDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SellingPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductionPrice)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
