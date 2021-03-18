@@ -15603,6 +15603,11 @@
   "RootNamespace": "BonFromage",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\erik_\\Documents\\OOP1fördjupning\\Vecka11\\BonFRomageWebbApp\\BonFromage\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\erik_\\Documents\\OOP1fördjupning\\Vecka11\\BonFRomageWebbApp\\BonFromage\\Pages\\Admin.cshtml",
       "TargetPath": "Pages\\Admin.cshtml",
       "FileKind": "mvc"
@@ -15610,6 +15615,11 @@
     {
       "FilePath": "c:\\Users\\erik_\\Documents\\OOP1fördjupning\\Vecka11\\BonFRomageWebbApp\\BonFromage\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\erik_\\Documents\\OOP1fördjupning\\Vecka11\\BonFRomageWebbApp\\BonFromage\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15690,6 +15700,16 @@
     {
       "FilePath": "c:\\Users\\erik_\\Documents\\OOP1fördjupning\\Vecka11\\BonFRomageWebbApp\\BonFromage\\Pages\\MenuItems\\Edit.cshtml",
       "TargetPath": "Pages\\MenuItems\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\erik_\\Documents\\OOP1fördjupning\\Vecka11\\BonFRomageWebbApp\\BonFromage\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\erik_\\Documents\\OOP1fördjupning\\Vecka11\\BonFRomageWebbApp\\BonFromage\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
       "FileKind": "mvc"
     }
   ],
